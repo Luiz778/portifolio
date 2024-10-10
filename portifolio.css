@@ -1,0 +1,45 @@
+*{  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #34113F;
+
+}
+
+header{
+    background-color: aliceblue;
+    display: flex;
+    height: 100px ;
+}
+nav{
+    width: 100px;
+    height: 100px;
+    color: rgb(230, 20, 20);
+}
+.container{
+    color: aqua;
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.container img{
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 400px;
+    border-radius: 50%;
+    border-style: groove;
+    border-color: #404363;
+}
+.main_text {
+    color:aliceblue;
+    font-size: 25px;
+    margin-left: 300px;
+    margin-top: 450px;
+    display: flex;
+    flex-direction: column;
+
+}
